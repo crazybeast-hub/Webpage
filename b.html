@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+    h1 {
+    animation: slide 1s ease;
+}
+
+h2 {
+    transition: 0.3s;
+}
+
+h2:hover {
+    transform: translateX(5px);
+}
+
+@keyframes slide {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+</style>
+
+
+</head>
+<body class ="bg-red-100">
+
+    <nav class="w-full">
+
+    <div class="max-w-6xl mx-auto px-6 py-5
+                flex flex-col md:flex-row
+                items-center justify-between gap-5">
+
+       
+        <a href="index.html" class="text-3xl font-bold">
+            Space Ship
+        </a>
+
+       
+        <div class="flex flex-col md:flex-row
+                    items-center gap-4 md:gap-9">
+             <a href="portfolio.html" class="text-emerald-500 text-xl hover:text-red-500">
+    Home
+</a>   
+
+
+            <a href="features.html"
+               class="text-emerald-500 text-xl hover:text-red-500 transition duration-300">
+                Features
+            </a>
+
+            <a href="about.html"
+               class="text-emerald-500 text-xl hover:text-red-500 transition duration-300">
+                About
+            </a>
+
+            <a href="b.html"
+               class="text-emerald-500 text-xl hover:text-red-500 transition duration-300">
+                Blog
+            </a>
+
+            <a href="c.html"
+               class="text-emerald-500 text-xl hover:text-red-500 transition duration-300">
+                Contact
+            </a>
+
+        </div>
+
+       
+
+    </div>
+
+</nav>
+    <div class="text-center mt-10">
+    <h1 class="text-5xl font-bold">Blog</h1>
+</div>
+
+<div class="grid md:grid-cols-3 gap-8 mt-20 px-10">
+
+    <div class="bg-white p-6 rounded-lg">
+        <h2 class="text-2xl font-bold">How to Build a Website</h2>
+        <p class="mt-4">
+            Learn the basics of creating a modern website.
+        </p>
+        <button class="mt-5 bg-yellow-500 px-5 py-2 rounded">
+            Read More
+        </button>
+    </div>
+
+    <div class="bg-white p-6 rounded-lg">
+        <h2 class="text-2xl font-bold">Why Responsive Design?</h2>
+        <p class="mt-4">
+            Learn why responsive websites are important.
+        </p>
+        <button class="mt-5 bg-yellow-500 px-5 py-2 rounded">
+            Read More
+        </button>
+    </div>
+
+    <div class="bg-white p-6 rounded-lg">
+        <h2 class="text-2xl font-bold">Getting Started</h2>
+        <p class="mt-4">
+            A simple guide to getting started with Space Ship.
+        </p>
+        <button class="mt-5 bg-yellow-500 px-5 py-2 rounded">
+            Read More
+        </button>
+    </div>
+
+</div>
+
+
+<!-- Images and descriptions -->
+<div class="flex flex-col items-center mt-20">
+
+    <div class="flex flex-col md:flex-row items-center justify-center gap-10 mb-16">
+
+        <img src="img12.jpg" class="w-64 rounded-lg">
+
+        <p class="text-lg text-center w-64">
+            Space Ship helps you build modern websites quickly.
+            It provides simple tools and a clean design for everyone.
+        </p>
+
+    </div>
+
+
+    <div class="flex flex-col md:flex-row items-center justify-center gap-10 mb-16">
+
+        <img src="img13.jpg" class="w-64 rounded-lg">
+
+        <p class="text-lg text-center w-64">
+            Responsive design makes your website look good on
+            mobiles, tablets and desktops.
+        </p>
+
+    </div>
+
+
+    <div class="flex flex-col md:flex-row items-center justify-center gap-10">
+
+        <img src="img14.jpg" class="w-64 rounded-lg">
+
+        <p class="text-lg text-center w-64">
+            Tailwind CSS makes it easy to create beautiful websites
+            with simple and reusable classes.
+        </p>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
